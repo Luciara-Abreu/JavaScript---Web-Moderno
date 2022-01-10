@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JavaScript---Web-Moderno
 
 Repositório do Curso → https://github.com/cod3rcursos/web-moderno
@@ -44,3 +45,6 @@ Ruim pode melhorar:
 - [ ]  29 - Data da minha conclusão XX/XX/XXXX
 - [ ]  30 - O que eu Lúci achei do curso.
 - [ ]  31 - Meu git →
+=======
+# JavaScript-Web-Moderno
+>>>>>>> 0c47301296604b3c47f4a9292229f349e7ebb30b
