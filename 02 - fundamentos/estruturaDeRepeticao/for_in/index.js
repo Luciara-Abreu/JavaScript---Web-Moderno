@@ -24,6 +24,7 @@ const pessoa = {
   preferredColor: "000000",
 };
 
-for (atributo in pessoa) {
+//let impede que após o laço não se tenha mais acesso aos atributos da pessoa
+for (let atributo in pessoa) {
   console.log(`${atributo} = ${pessoa[atributo]}`);
 }
