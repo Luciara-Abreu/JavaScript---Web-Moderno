@@ -1,0 +1,15 @@
+// Aula 90 - Parametros Variaveis
+
+function soma(){
+  let soma = 0
+  for (let i in arguments){
+    soma += arguments[i]
+  }
+  return soma
+}
+
+console.log(soma())
+console.log(soma(1))
+console.log(soma(1.5,2,33))
+console.log(soma(1,2,3,1))
+console.log(soma(8,2))
