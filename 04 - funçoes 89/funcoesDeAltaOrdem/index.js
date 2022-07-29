@@ -32,7 +32,7 @@ obj.falar = function () {
 };
 console.log(obj.falar());
 
-console.log("-----/ passar uma função como parametro para outra função /-----");
+console.log("-----/ passar uma função como parâmetro para outra função /-----");
 
 function rum(fun) {
   fun();
@@ -40,3 +40,12 @@ function rum(fun) {
 rum(function () {
   console.log("executando....");
 });
+
+console.log("-----/ uma função retorna outra função  /-----");
+function soma(a,b){
+  return function (c){
+    console.log(a + b + c)
+  }
+}
+soma(1,2)(3)
+
