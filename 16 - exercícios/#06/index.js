@@ -9,14 +9,14 @@ const taxaDeJuros = 10/100
 
 function jurosSimples (capitalInicial, juros, tempo) {
   return capitalInicial + (capitalInicial * juros * tempo )  
- }
- console.log(jurosSimples(100,10/100, 2))
+}
+console.log(jurosSimples(100,10/100, 2))
 
 
 function jurosComposto (capitalInicial, juros, tempo) {
   return capitalInicial * (1 + juros) ** tempo  
- }
- console.log(jurosComposto(100,10/100, 2))
+}
+console.log(jurosComposto(100,10/100, 2))
 
 
 
