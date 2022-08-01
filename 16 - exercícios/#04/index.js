@@ -9,4 +9,4 @@ const divisaoEResto=(a,b) => {
   console.log(`resto = ${a % b}`)  
 }
 
-divisaoEResto(11,4)
+divisaoEResto(11,4) 
