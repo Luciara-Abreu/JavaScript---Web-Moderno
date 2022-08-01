@@ -11,5 +11,5 @@ const mostrarValorReal = valor => {
   valorEmReal = `R$ ${valor.toFixed(2).toString().replace(".", ",")}`; 
   console.log(valorEmReal)
 }
-
 mostrarValorReal(0.1 + 0.2)
+
