@@ -14,8 +14,7 @@ aconteceu no sétimo jogo.)
  */
 
 let stringPontuacoes = "30, 40, 20, 3, 51, 25, 42, 38, 56, 70"
- 
- 
+
 function avaliaPontuacoes (stringPontuacoes) {
     let pontuacoes = stringPontuacoes.split(", ")
     let qtdQuebraDeRecords = 0
