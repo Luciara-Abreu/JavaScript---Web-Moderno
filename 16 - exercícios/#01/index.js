@@ -2,7 +2,6 @@
 Crie uma função que dado dois valores (passados como parâmetros) mostre no console 
 a soma, subtração,multiplicação e divisão desses valores.
 */
-
 function mostreResultados(a, b) {
   const sum = a + b;
   const sub = a - b;
