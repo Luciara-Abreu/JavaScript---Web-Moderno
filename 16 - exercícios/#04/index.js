@@ -5,8 +5,10 @@ e o resto da divisão destes dois valores.
 */
 
 const divisaoEResto=(a,b) => {
+
   console.log(resultado = a/b)
-  console.log(`resto = ${a % b}`)  
+  console.log(`resto = ${a % b}`) 
+  
 }
 
 divisaoEResto(11,4) 
