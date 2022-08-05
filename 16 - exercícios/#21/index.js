@@ -17,6 +17,8 @@ const convenio = (idade) => {
     console.log(" R$50,00");
   } else if (idade < 10) {
     console.log(" R$80.00");
+  } else{
+    'idade indefinida, tente novamente.'
   }
 };
 console.log(convenio(60));
