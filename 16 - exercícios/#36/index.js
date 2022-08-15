@@ -1,18 +1,17 @@
 /*
-37) Escreva duas funções, uma para progressão aritmética e uma para progressão 
-geométrica que recebam como parâmetros um número n (número de termo), 
-a1 (o primeiro termo) e r (a razão) e escreva os n termos,
-bem como a soma dos elementos.
+36) Crie duas funções que recebem dois parâmetros, um vetor com apenas valores numéricos e um número
+inteiro. Faça com que a primeira função retorne outro vetor que será resultado da multiplicação de cada
+elemento pelo número passado como parâmetro. A segunda função fará o mesmo da primeira se e somente se
+o valor do elemento for maior que 5.
  */
-// Achei a descrição do exercício confuso, muito confuso!! Mais que a o exemplo
 
-let vetor = [1, 2, 3, 4, 5]
+let vetor = [1,2,3,4,5]
 
-function multiplicaVetor(vetor, multiplicador){
-    let vetorResultado = []
-    vetor.forEach(elemento => {
-        vetorResultado.push(elemento * multiplicador) 
-    });
-    return vetorResultado
+function multiplicaVetor(vetor,multiplicador) {
+  let vetorResultado = []
+  vetor.forEach(elemento => {
+    vetorResultado.push(elemento * multiplicador)
+  });
+return vetorResultado
 }
-console.log(multiplicaVetor(vetor, 3))
+console.log(multiplicaVetor(vetor, 5))
