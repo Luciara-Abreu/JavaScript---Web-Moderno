@@ -14,4 +14,14 @@ function multiplicaVetor(vetor,multiplicador) {
   });
 return vetorResultado
 }
-console.log(multiplicaVetor(vetor, 5))
+console.log(multiplicaVetor(vetor, 6))
+
+// Outra forma de fazer
+function multiplicaVetor2(vetor, multiplicador) {
+    let vetorResultado = []
+  for(let i = 0; i < vetor.length; i++){
+    vetorResultado.push(vetor[i] * multiplicador)
+  }
+  return vetorResultado
+}
+console.log(multiplicaVetor2(vetor, 5))
