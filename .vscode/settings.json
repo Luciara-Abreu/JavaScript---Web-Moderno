@@ -4,7 +4,10 @@
     "Cartao",
     "conveniado",
     "convenio",
+    "endereco",
     "impares",
+    "preco",
+    "proprietario",
     "salario"
   ]
 }
