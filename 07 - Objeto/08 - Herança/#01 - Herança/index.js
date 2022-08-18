@@ -1,5 +1,5 @@
 console.log("------------------------------------------------");
-console.log('')
+console.log('Object prototype')
 
 const ferrari = {
   modelo: 'f40',
