@@ -1,5 +1,5 @@
 console.log("------------------------------------------------");
-console.log("");
+console.log("Evitando Modificações com preventExtensions");
 /*
 Objeto com tres atributos e a partir do preventExtensions onde não iremos 
 conseguir add mais nenhum atributo, apenas mudar os valores que já temos e excluir
