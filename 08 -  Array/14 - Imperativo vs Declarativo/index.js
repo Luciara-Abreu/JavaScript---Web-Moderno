@@ -1,5 +1,5 @@
 console.log("------------------------------------------------");
-console.log("");
+console.log("Imerativa vs Declarativa");
 
 const alunos = [
   { nome: 'João', nota: 7.9},
