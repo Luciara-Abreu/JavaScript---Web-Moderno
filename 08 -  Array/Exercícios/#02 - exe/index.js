@@ -7,9 +7,17 @@ e retorne a mesma idade em dias
 *Considerando que o ano tenha 365 dias
 */
 
-const idade = 0
+const idade = 0;
 
-const idadeEmDias = (idade) => {
-  return idade * 365
-}
-console.log('Você já viveu cerca de',idadeEmDias( 45) ,'dias!')
+const idadeEmDias1 = (idade) => {
+  return idade * 365;
+};
+console.log("Você já viveu cerca de", idadeEmDias1(45), "dias!");
+
+console.log("------------------------------------------------");
+const anos = 365;
+
+const idadeEmDias2 = (idade) => {
+  return idade * anos;
+};
+console.log("Você já viveu cerca de", idadeEmDias2(45), "dias!");
