@@ -21,5 +21,6 @@ console.log("Outro Exemplo");
 const prodFrageis = produto => produto.fragil == true
 const prodCaro = value => value.preco > 5000
 
+
 resultado = produtos.filter(prodFrageis).filter(prodCaro)
 console.log(resultado)

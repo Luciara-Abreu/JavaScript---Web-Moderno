@@ -16,12 +16,12 @@ Ruim pode melhorar:
 
 - [x]  1 - Visão Geral
 - [x]  2 - Configuração do ambiente
-- [ ]  3 - Iniciando com Programação
-- [ ]  4 - Fundamentos
-- [ ]  5 - Estruturas de controle
-- [ ]  6 - Funções
-- [ ]  7 - Objetos OO
-- [ ]  8 - Array
+- [X]  3 - Iniciando com Programação
+- [X]  4 - Fundamentos
+- [X]  5 - Estruturas de controle
+- [X]  6 - Funções
+- [X]  7 - Objetos OO
+- [X]  8 - Array
 - [ ]  9 - Node
 - [ ]  10 - ES Next ... 6,7,8
 - [ ]  11 - Fundamentos WEB
