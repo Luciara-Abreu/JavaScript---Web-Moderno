@@ -54,36 +54,12 @@ const meses = [
   },
 ];
 console.log("------------------------------------------------");
-const apenasId = meses => meses.id 
-const apenasName = value => value.name
-
-const result = meses.map(apenasId).map(apenasName)
-
-const consultaMeses =(id) => {
-  if(id == apenasId){
-    return result
-  }
-}
-console.log("O mês é = >",consultaMeses(11))
+const consultaMeses = (id) => {
+  const meuMes = (mes) => mes.id === id;
+  const result = meses.filter(meuMes);
+  return result[0].name;
+};
+const qualMes = consultaMeses(9);
+console.log("Que mês é?", qualMes);
 
 console.log("------------------------------------------------");
-const consultaMeses1 =(id) => {
-  if(id == apenasId){
-    console.log(meses.filter(apenasName))
-  }else{
-    'opz!'
-  }
-}
-console.log("O mês é = >",consultaMeses1(12))
-
-console.log("------------------------------------------------");
-const apenasName2 = value => value.name
-
-const consutlaMes2 = (id) => {
-  const apenasId2 = mes => mes.id == id
-  if(id == apenasId2){
-    return resultado
-  }
-}
-const resultado = meses.filter(apenasName2)
-console.log("O mês é = >",consutlaMes2(09))
