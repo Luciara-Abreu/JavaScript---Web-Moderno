@@ -6,12 +6,20 @@ console.log("------------------------------------------------");
 */
 console.log("------------------------------------------------");
 
-const returnMaisMais = (x) =>{
-  let result = ''
-  for(let i=0; i< x; i++){
-    result += '+'
+const returnMaisMais = (x) => {
+  let result = "";
+  for (let i = 0; i < x; i++) {
+    result += "+";
   }
-return result
+  return result;
+};
+const resultado = returnMaisMais(3);
+console.log(resultado);
+
+console.log("------------------------------------------------");
+// exemplo do profe
+
+function simboloMais(quantidade) {
+  return Array(quantidade).fill("+").join("");
 }
-const resultado = returnMaisMais(3)
-console.log(resultado)
+console.log(simboloMais(5))
