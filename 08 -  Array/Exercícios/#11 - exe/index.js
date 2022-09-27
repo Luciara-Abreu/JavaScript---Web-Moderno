@@ -16,3 +16,13 @@ const apenasNumeros = (diversos) =>{
   return result 
 }
 console.log(apenasNumeros(diversos))
+
+console.log("------------------------------------------------");
+console.log("exemplo do profe"); 
+
+function filtrarNumero(diversos) {
+  return diversos.filter(
+    itemX => typeof itemX === "number"
+  )
+}
+console.log(filtrarNumero(diversos))
