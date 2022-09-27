@@ -53,7 +53,8 @@ console.log("------------------------------------------------");
 */
 console.log("------------------------------------------------");
 /*11)
-*
+*Crie uma função que receba um array e retorne apenas os numeros 
+*presentes no array
 */
 console.log("------------------------------------------------");
 /*
