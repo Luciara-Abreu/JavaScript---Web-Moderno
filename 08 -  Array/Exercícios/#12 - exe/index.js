@@ -25,3 +25,9 @@ console.log(arrayPessoa(dadosPessoa))
 console.log("------------------------------------------------");
 console.log("Exemplo profe");
 
+function deObjetoParaArray(dadosPessoa){
+  return Object.entries(dadosPessoa)
+}
+
+console.log(deObjetoParaArray(dadosPessoa))
+
