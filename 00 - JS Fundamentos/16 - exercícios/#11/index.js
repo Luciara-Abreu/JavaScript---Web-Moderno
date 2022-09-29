@@ -4,8 +4,8 @@ De 4 em 4 anos é ano bissexto;
 De 100 em 100 anos não é ano bissexto;
 De 400 em 400 anos é ano bissexto;
 Prevalecem as últimas regras sobre as primeiras.
-Partindo daí elabore uma função que recebe um ano e calcula se ele é ano bissexto, imprimindo no console a
-mensagem e retornando true ou false. 
+Partindo daí elabore uma função que recebe um ano e calcula se ele é ano bissexto, 
+imprimindo no console a mensagem e retornando true ou false. 
 */
 let anos = ['1990','1991','1992','1993','1994','1995','1996','1997',
 '1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009',

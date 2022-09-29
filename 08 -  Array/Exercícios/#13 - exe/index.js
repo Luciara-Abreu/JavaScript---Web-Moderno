@@ -1,5 +1,5 @@
 console.log("------------------------------------------------");
-/*12)
+/*13)
 * Desenvolva uma função que receba um array de numeros e 
 retorne apenas os numeros pares e que tenham índices pares
 */
