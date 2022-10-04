@@ -22,7 +22,7 @@ Ruim pode melhorar:
 - [X]  6 - Funções
 - [X]  7 - Objetos OO
 - [X]  8 - Array
-- [ ]  9 - Node
+- [X]  9 - Node
 - [ ]  10 - ES Next ... 6,7,8
 - [ ]  11 - Fundamentos WEB
 - [ ]  12 - HTML
