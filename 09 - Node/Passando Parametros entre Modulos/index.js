@@ -1,5 +1,5 @@
-console.log('Passando parâmetros entre módulos')
+console.log("Passando parâmetros entre módulos");
 
-module.exports = function(...nomes){
-  return nomes.map(nome => `Boa semana ${nome}!`)
-}
+module.exports = function (...nomes) {
+  return nomes.map((nome) => `Boa semana ${nome}!`);
+};
