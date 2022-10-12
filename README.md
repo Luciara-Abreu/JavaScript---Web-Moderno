@@ -23,6 +23,28 @@ Ruim pode melhorar:
 - [X]  7 - Objetos OO
 - [X]  8 - Array
 - [X]  9 - Node
+  - [X]  1 - Sistema de Modulos
+  - [X]  2 - Usando Modulos de Terceiros
+  - [X]  3 - Sistema de modulos Require
+  - [X]  4 - Sistema de modulos Exports
+  - [X]  5 - Arquivos Package.json
+  - [X]  6 - Instância unica vs instancia 
+  - [X]  7 - Objeto global do Node
+  - [X]  8 - Entendendo this
+  - [X]  9 - This em Arrow function
+  - [X]  10 - Passando parametros entre modulos
+  - [X]  11 - Lendo arquivos
+  - [X]  12 - Escrevendo arquivos
+  - [X]  13 - Framework web
+  - [X]  14 - Padrão Middleware
+  - [X]  15 - Instalando o Postman
+  - [ ]  16 - Projeto API com Express #01
+  - [ ]  17 - Projeto API com Express #02
+  - [ ]  18 - Erro do bodyParser deprecated
+  - [ ]  19 - Projeto API com Express #03
+  - [ ]  20 - Configurando a função scheduleJob
+  - [ ]  21 - Tarefas agendadas com temporizador
+  - [ ]  22 - Processo de entrada e saída padrão 
 - [ ]  10 - ES Next ... 6,7,8
 - [ ]  11 - Fundamentos WEB
 - [ ]  12 - HTML
