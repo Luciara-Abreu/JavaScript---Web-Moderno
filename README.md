@@ -38,8 +38,8 @@ Ruim pode melhorar:
   - [X]  13 - Framework web
   - [X]  14 - Padrão Middleware
   - [X]  15 - Instalando o Postman
-  - [ ]  16 - Projeto API com Express #01
-  - [ ]  17 - Projeto API com Express #02
+  - [X]  16 - Projeto API com Express #01
+  - [X]  17 - Projeto API com Express #02
   - [ ]  18 - Erro do bodyParser deprecated
   - [ ]  19 - Projeto API com Express #03
   - [ ]  20 - Configurando a função scheduleJob
